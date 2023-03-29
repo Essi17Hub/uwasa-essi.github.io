@@ -18,6 +18,8 @@
 		<p>Block elementtejä käytetään usein ns. container -elementteinä, tästä hyvä esimerkki on div ja section elementti.</p>
 		<p>Joidenkin block elementien sisältö on ennalta määritelty, tällaisia esimerkiksi listat ja taulukot.</p>
 		<h2 class="otsikot">Taulukko</h2>
+		<p>Taulukko aloitetaan table elementillä, otsikko osio erotetaan thead -elementillä, sisältö erotetaan tbody elementillä. Rivi merkataan tr elementillä ja sen sisälle laitetaan solut td elementillä.</p>
+		<p>Tee alla olevista soluista taulukko ja laita taulukolle attribuutit id[taulukko1] ja luokka class[taulukko].</p>
 		<table id="taulukko1" class="taulukko">
 			<tr>
 				<p>Solu11</p>
@@ -32,6 +34,7 @@
 			</tr>
 		</table>
 		<h2 class="otsikot">Listat</h2>
+		<p>Listat sisältävät lista tyyppi elementin, ol tai ul ja jokainen listan ns. entry merkitään li elementillä.</p>
 		<h3 class="otsikot">Numeroitu lista</h3>
 			<ol>
 				<li>Lista</li>
@@ -45,6 +48,12 @@
 				<li>Lista</li>
 			</ul>
 		<h2 class="otsikot">Kuva</h2>
+		<p>Kuva voidaan laittaa sisältöön img elementillä, jonka attribuutteina on kuvan lähde (eli source -> src), kuvan vaihtoehtoinen näkymä tekstinluvulle tms. (eli alternative content -> alt). Myös kuvan koko voidaan antaa korkeus (height) ja leveys (width) attribuutteilla suhteellisena (%, vm) tai absoluuttisena (px, em). Kuva elementti on aina self closing eli sille ei tehdä sulkevaa elementtiä, vaan se suljetaan lisäämällä / elementin loppuun.</p>
+		<p>Lisää kuva esimerkki.png tämän kappaleen alle.</p>
 		<img src="img/esimerkki.png">
+		<h2 class="otsikot">Linkki</h2>
+		<p>Linkit ovat HTML sielu. Linkin kohde voi olla samalla sivulla, tällöin riittää viittaus kohteen id:seen, kohde voi olla toinen sivu samalla sivustolla, tällöin viittaus voidaan tehdä suhteellisena (eli polulla lähtösivulta kohde sivulle) tai absoluuttisena (eli sivun osoitteella).</p>
+		<p>Linkki avataan a elementillä, jolle asetetaan kohde attribuutilla href. Linkin ulkoasua yms. Voi muuttaa antamalla sille luokan, jonka ulkoasu määritetään css:ssä.</p>
+		<p>Tee linkki sivuston elementtiin jolla on id guid1 tämän kappaleen esimerkki1 sanaan. Tee lisäksi tästä linkki yliopiston kotivulle.</p>
 	</body>
 </html>
